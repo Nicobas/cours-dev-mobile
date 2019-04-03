@@ -35,25 +35,13 @@ console.log(showDateFr(date));
 
 // Exo 3 ChiFuMi
 
-const PIERRE = 'pierre';
-const FEUILLE = 'feuille';
-const CISEAU = 'ciseau';
-
 class Player {
     constructor(name) {
         this.name = name;
     }
 
     play() {
-        const rand = Math.random();
-
-        if (rand < 1/3) {
-            return PIERRE;
-        } else if (rand > 2/3) {
-            return FEUILLE;
-        } else {
-            return CISEAU;
-        }
+        //... Renvoie aléatoirement 'pierre', 'feuille' ou 'ciseau'
     }
 }
 
@@ -67,20 +55,18 @@ class ChiFuMi {
     };
 
     playGame() {
-        //... permet de jouer la partie et renvoie le gagnant
+        //... permet de jouer la partie et retourne le gagnant
     };
 }
 
 const alice = new Player('Alice');
 const bob = new Player('Bob');
 
-console.log(alice.play())
+const game = new ChiFuMi(alice, bob, 3);
 
-// const game = new ChiFuMi(alice, bob, 3);
-//
-// const winner = game.playGame();
-//
-// console.log(winner.name + 'gagne la partie');
+const winner = game.playGame();
+
+console.log(winner.name + 'gagne la partie');
 
 // Nouvelle partie en 3 victoires avec Alice et Bob
 // Tour 1 : Alice pierre, Bob feuille, Bob gagne (1-0)
