@@ -14,6 +14,7 @@ module.exports = class ChiFuMi {
     };
 
     playRound() {
+        console.log('\r');
         console.log('Manche ' + this.currentRound);
 
         //-- 8 - Les deux joueurs choisissent ce qu'ils veulent jouer
@@ -54,13 +55,14 @@ module.exports = class ChiFuMi {
     };
 
     playGame() {
-        console.log ('Début de la partie');
+        console.log ('Début de la partie (' + this.numberOfWon + ' victoires requises)');
 
         //-- 7 - Tant qu'aucun des joueurs n'a atteint le nombre de victoires requis, on lance une nouvelle manche
         while (this.scoreP1 < this.numberOfWon && this.scoreP2 < this.numberOfWon) {
             this.playRound();
         }
 
+        console.log('\r');
         console.log ('Fin de la partie');
 
         //-- 12 - L'un des score à atteint la valeure requise, on determine le vainqueur de la partie

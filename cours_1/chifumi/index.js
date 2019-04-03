@@ -16,4 +16,5 @@ const game = new ChiFuMi(alice, bob, 3);
 //-- 6 - Début de la partie, tout ce qui était avant n'était que la préparation de la partie
 const winner = game.playGame();
 
+console.log('\r');
 console.log('Le vainqueur est ' + winner.name);
