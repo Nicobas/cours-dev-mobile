@@ -1,6 +1,6 @@
 # Cours de développement mobile
 
-###Bastien NICOLAS
+### Bastien NICOLAS
 bnicolas.pro@gmail.com
 
-[Cours 1 du 27/03/2019](./cours_1/)
+[Cours n°1 du 27/03/2019](./cours_1/)

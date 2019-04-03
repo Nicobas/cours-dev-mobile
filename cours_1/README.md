@@ -1,6 +1,6 @@
-# Cours n°1 du 27/03/19
+# Cours n°1 du 27/03/2019
 
-Notions abordées :
+#### Notions abordées :
 - Introduction au cours de dev 
 - Bash -> [Rappel des commandes](./rappels_bash.md)
 - JavaScript
