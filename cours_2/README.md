@@ -12,7 +12,7 @@
 
 Bien entendu ces exercices sont **à rendre sur GitHub, vous avez jusqu'a la veille du prochain cours pour m'envoyer par mail** le lien de votre repo. 
 
-Votre repo doit contenir un .gitignore pour éviter d'envoyer les fichiers/repertoires inutiles. Vous devez également avoir un package.json qui contient votre nom, les dependances et des scripts pour executer vos programmes
+Votre repo doit contenir un .gitignore pour éviter d'envoyer les fichiers/repertoires inutiles. Il doit également avoir un package.json qui contient votre nom, les dependances et les scripts pour executer vos programmes
 
 Les exercices à faire chez vous (à partir de maintenant) sont notés, il compteront pour 25% de na note finale du module.
 
