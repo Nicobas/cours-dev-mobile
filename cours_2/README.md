@@ -4,6 +4,8 @@
 - git -> [Rappel des commandes](https://www.hostinger.fr/tutoriels/commandes-git/)
 - npm -> [Rappel des commandes](./rappels_npm.md)
 
+Les exercices faits en cours ont été commentés
+
 #### A faire pour le prochain cours :
 
 - [Exercice crypto](./exo_crypto/README.md)
