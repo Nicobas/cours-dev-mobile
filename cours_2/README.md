@@ -8,6 +8,7 @@
 
 - [Exercice crypto](./exo_crypto/README.md)
 - [Exercice qrcode](./exo_qrcode/README.md)
+- [Exercice météo](./exo_meteo/README.md)
 
 Bien entendu ces exercices sont **à rendre sur GitHub, vous avez jusqu'a la veille du prochain cours pour m'envoyer par mail** le lien de votre repo. 
 
