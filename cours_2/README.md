@@ -1,3 +1,20 @@
-Mémo commandes git
+# Cours n°2 du 10/04/2019
 
-https://www.hostinger.fr/tutoriels/commandes-git/
+#### Notions abordées :
+- git -> [Rappel des commandes](https://www.hostinger.fr/tutoriels/commandes-git/)
+- npm -> [Rappel des commandes](./rappels_npm.md)
+
+#### A faire pour le prochain cours :
+
+- [Exercice crypto](./exo_crypto/README.md)
+- [Exercice qrcode](./exo_qrcode/README.md)
+
+Bien entendu ces exercices sont **à rendre sur GitHub, vous avez jusqu'a la veille du prochain cours pour m'envoyer par mail** le lien de votre repo. 
+
+Votre repo doit contenir un .gitignore pour éviter d'envoyer les fichiers/repertoires inutiles. Vous devez également avoir un package.json qui contient votre nom, les dependances et des scripts pour executer vos programmes
+
+Les exercices à faire chez vous (à partir de maintenant) sont notés, il compteront pour 25% de na note finale du module.
+
+N'hesitez pas si vous avez des questions ou des difficultées ;)
+
+PS : la correction du pile ou face est [disponible ici](../cours_1/pileouface)
