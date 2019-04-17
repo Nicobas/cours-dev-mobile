@@ -2,7 +2,7 @@
 
 Faire un programme qui permet d'afficher la température actuelle (en °C) à Paris
 ```
-node weather.js
+node weather-paris.js
 // Affiche "Il fait 15°C à Paris en ce moment"
 ```
 
