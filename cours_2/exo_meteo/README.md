@@ -9,4 +9,4 @@ node weather-paris.js
 Vous devez utiliser le module suivant :
 - [weather-js](https://www.npmjs.com/package/weather-js)
 
-**Bonus** : Afficher également les prévisions de la semaine
+**Bonus** : Afficher également les prévisions de la semaine, pourvoir passer la ville en argument
