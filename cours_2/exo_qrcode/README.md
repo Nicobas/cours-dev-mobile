@@ -1,6 +1,6 @@
 ### Exercice qrcode : ###
 
-Faire un programme qui permet générer un qrcode qui représente une chaine de caractère
+Faire un programme qui permet de générer un qrcode qui représente une chaine de caractère
 ```
 node qrcodegenerator.js "ma chaine de caractère" monqrcode.jpg
 ```
@@ -12,4 +12,4 @@ Pour tester votre programme, vous pouvez télécharger sur votre téléphone une
 
 **Bonus** : Faire un serveur http qui renvoie un qrcode représentant la route
 
-Ex : si je me rends sur http://localhost:8080/coucou , le navigateur doit m'afficher un qrcode qui représente "coucou"
+Ex : si je me rends sur http://localhost:8080/coucou , le navigateur doit m'afficher un qrcode qui représente la chaine de caractère "coucou"
