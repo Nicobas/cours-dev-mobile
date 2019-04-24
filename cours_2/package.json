@@ -6,15 +6,22 @@
   "scripts": {
     "start": "nodemon index.js",
     "increment": "node increment_file_counter.js",
-    "bonjour": "echo Bonjour"
+    "bonjour": "echo Bonjour",
+    "exo_meteo": "node ./exo_meteo/weather-paris.js",
+    "exo_qrcode": "node ./exo_qrcode/qrcodegenerator.js 'ma chaine de caractère' ./exo_qrcode/monqrcode.jpg",
+    "exo_crypto_crypt": "node ./exo_crypto/crypt.js ./exo_crypto/monfichier.txt ./exo_crypto/monfichier.txt.aes monsupermotdepasse",
+    "exo_crypto_decrypt": "node ./exo_crypto/decrypt.js ./exo_crypto/monfichier.txt.aes ./exo_crypto/monfichierdechiffre.txt monsupermotdepasse"
   },
-  "author": "",
+  "author": "Bastien NICOLAS",
   "license": "ISC",
   "dependencies": {
+    "aes256": "^1.0.4",
     "date-and-time": "^0.6.3",
     "figlet": "^1.2.1",
     "fs": "0.0.1-security",
     "http": "0.0.0",
-    "randomstring": "^1.1.5"
+    "qrcode": "^1.3.3",
+    "randomstring": "^1.1.5",
+    "weather-js": "^2.0.0"
   }
 }
