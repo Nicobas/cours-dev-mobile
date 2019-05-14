@@ -2,7 +2,7 @@
 
 ```
 npm init
-// Permet d'initialiser un nouveau projet npm
+// Permet d'initialiser un nouveau projet node
 // Cette commande va créer un fichier package.json qui est  la carte d'identitée du projet
 // Le fichier package.json va contenir des informations tels que la version, les informations sur l'auteur, le repository associé, les dependences, les scripts, ...
 
