@@ -13,7 +13,7 @@ pwd
 // Permet de savoir ou l'on se situe dans l'arboressence de fichiers
 // Ex: /home/nicobas/workspace/cours-dev-mobile
 
-Il y a quelques raccourcis à connaire pour se déplacer dans l'arboressence des fichiers :
+Il y a quelques raccourcis à connaitre pour se déplacer dans l'arboressence des fichiers :
 .   c'est le repertoire courant (celui dans lequel je me trouve)
 ..  c'est le repertoire parent (si je suis dans "/home/nicobas", ce sera "/home")
 /   c'est la racine, tous les fichiers du système sont contenu dedant, on ne peut pas remonter plus haut dans l'arboressence
@@ -70,6 +70,6 @@ Ex : pwd > oujesuis.txt
 // > écrase le fichier si il existe, sinon il le crée tout seul
 // >> ajoute le résultat à la fin du fichier si il existe, sinon le crée
 
-A savoir que tout les programmes installés sur votre système peuvent s'executer/s'ouvrir en ligne de commande
+A savoir que tous les programmes installés sur votre système peuvent s'executer/s'ouvrir en ligne de commande
 Ex : node, git, firefox, gedit, filezilla, nautilus (gestionnaire de fichier sur Ubuntu) ...
 ```
