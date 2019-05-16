@@ -3,3 +3,4 @@
 #### Notions abordées :
 - React-Native -> [Rappel des commandes et architecture](./rappels_react-native.md)
 
+Vous trouverez [ici](./exemple) un projet d'exemple commenté qui reprend toutes les notions que nous avons vues (même un peu plus), je vous invite à le cloner, à le lancer (n'oubliez pas le npm install) et à bidouiller pour vous rappeler de comment ça fonctionne ;)

@@ -6,7 +6,7 @@ react-native init <nom du projet>
 // Un projet react-native est un projet node préconfiguré pour react-native, il y a le fichier package.json pour les dépendances
 // Pour installer de nouveaux modules il faut utiliser les commandes classiques npm ou yarn (équivalent)
 
-// Architecture d'un projet react-native (je ne cite que ce qui est utile)
+// Architecture d'un projet react-native (je ne cite que ce qui nous est utile)
 android                                     // tout ce qui concerne la couche native Android
 |--app
    |--build                                 // Les fichiers de compilation Android (ce que le clean supprime), c'est également ici que l'on récupère les APK
@@ -29,7 +29,7 @@ src                                         // (à créer) tout votre code JS se
 |--assets                                   // contient les images, polices, ...
 |--components                               // contient touts vos composants
 App.js                                      // Premier component appelé dans index.js, je conseille de le déplacer dans src
-.gitignore                                  // pour ignorer les fichier dans git (adapté pour react-native)
+.gitignore                                  // pour ignorer les fichier dans git (préadapté pour react-native)
 index.js                                    // point d'entrée de l'application (couche JS)
 package.json                                // scripts et dependances npm
 
@@ -40,7 +40,7 @@ package.json                                // scripts et dependances npm
 // Pensez à clean avant de commencer à travailler et dès que vous avez un bug bizarre (apres un clean, il faut toujours relancer le start puis le run)
 
 react-native start
-// Démare le serveur web (couche JS) qui fournis les informations à l'application
+// Démare le serveur web (couche JS) qui execute votre code donne les instructions à la couche native
 // Il faut distinguer la couche JS (commune) de la couche native Android ou iOS
 
 react-native run-android
